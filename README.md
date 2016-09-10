@@ -1,6 +1,6 @@
 # functional-kidney-imaging
 
-### *Measurement of Renal Perfusion and Filtration with MRI* (Syllabus)
+### *Measurement of Renal Perfusion and Filtration with MRI*
 
 [Arvid Lundervold](http://www.uib.no/en/persons/Arvid.Lundervold), BSc, MD, PhD
 
