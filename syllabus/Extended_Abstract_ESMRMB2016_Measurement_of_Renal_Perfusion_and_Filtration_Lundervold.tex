@@ -1,0 +1,135 @@
+% Length of syllabus contributions should be one page or more.  Submission should be via message with attached file sent to syllabus11@ismrm.org . 
+% Syllabus contributions will be published in the weekend syllabus CD.    
+%
+% The syllabus will be published (and made available on line to pre-registrants) two weeks before the meeting.  
+% Please use the following guidelines in developing your contribution:
+%
+% 1.         Paper size:  Should be formatted for 8.5� x 11� or A4 paper.
+% 2.         Format:  Single spaced in 10 or 12 pt type; Margins:  At least 1� or 25.4 mm margins on all sides.
+% 3.         Use numerals in brackets for footnote or reference notations.
+
+
+\documentclass[11pt]{article}
+\usepackage[left=2.0cm,top=1.0cm,right=2.5cm,bottom=2.0cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{times}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{comment}
+\usepackage{enumitem}
+
+
+\title{{\small SYLLABUS} \\Measurement of Renal Perfusion and Filtration \vspace{-3mm}}
+\author{Arvid Lundervold, {\small BSc, MD, PhD} \\ {\small Department of Biomedicine, University of Bergen \& Department of Radiology, Haukeland University Hospital, Bergen, Norway} \\ {\vspace{-2mm}\footnotesize \tt http://computationalmedicine.no}}
+\date{ESMRMB 2016 - 33$^{\mbox{rd}}$ Annual Scientific Meeting,
+Vienna, Austria\\ Teaching Session: Functional kidney imaging with MRI (adv.) \\ {\small Thursday 29-Sep-2016, 0800-0830}\\{\footnotesize \tt https://github.com/arvidl/functional-kidney-imaging}}                                           
+
+\begin{document}
+\maketitle
+%\section{}
+
+\subsection*{Abstract}
+
+Kidney function is related to maintenance of fluids, electrolytes, acid-base balance and clearance of toxins. Normal kidney function is maintained by 
+coordinated regulation at different levels of organization warranting an integrative approach to kidney function in health and disease.
+
+Important parameters describing kidney physiology and function are: {\bf renal plasma flow}, RPF = (1 - Hct) $\cdot$ RBF, where Hct (hematocrit) is the fraction 
+of blood volume representing the cellular elements of blood, RBF is the volume of blood delivered to the kidneys per unit time [mL/min]; {\bf renal perfusion}, 
+denoting renal blood flow per unit volume of kidney [mL/min/100 mL]; and {\bf glomerular filtration rate}, GFR, the volume of fluid filtered from the renal 
+glomerular capillaries into Bowman's capsule per unit time, equal to the sum of the filtration rates of all functioning nephrons [mL/min]. Typical values in 
+healthy humans: Hct $\sim$0.40, RPF $\sim$600 mL/min, GFR $\sim$125 mL/min (70-kg man, where population studies have shown GFR to be proportional to body 
+surface area, and sex and age dependent).
+
+This teaching session will introduce measurement of renal perfusion and filtration in the framework of {\bf imaging-based biomarkers} 
+and {\bf computational medicine} / {\bf systems medicine}.\\
+
+\noindent ({\bf i}) The first part will give a brief overview of kidney structure and function and the key physiological parameters relevant to the clinics. 
+In particular, we describe the gross functional anatomy of the kidney, the renal blood supply, and the ultrastructure of the filtration barrier, as well 
+as some major diseases and conditions affecting normal perfusion and filtration. To complete this motivational part, we mention assessment 
+of kidney function in the clinical laboratory based on the measurement of the clearance of various substances (exogenous and endogenous markers) 
+by the kidneys, incorporating the `{\bf conservation of mass}' principle also underlying imaging-based modeling of renal perfusion and filtration.\\
+
+\noindent ({\bf ii}) The second part addresses MR acquisition techniques in use for measuring perfusion and filtration, with a focus on DCE-MRI.\\
+
+\noindent ({\bf iii}) This part presents {\bf tracer kinetics} and {\bf compartment models} applied to parenchymal regions down to single voxels, where 
+{\bf motion correction} can be an issue.\\
+
+\noindent ({\bf iv}) In the fourth part, model-based estimation of renal perfusion and filtration using different numerical {\bf software} and programming languages 
+will be demonstrated.\\
+
+\noindent Finally, we will point to relevant literature, software tools, and new initiatives addressing the lack of standardization in acquisition and analysis methods, 
+limited access to data from previous studies, and the challenges of {\bf reproducibility} and {\bf validation}.
+
+
+\subsection*{Extended list of bibliographical references:}
+
+\vspace{2mm}
+
+\begin{description}[style=unboxed,leftmargin=0.1cm]
+
+\item[{\rm \underline{Kidney function}}]:  \\  {\footnotesize\cite{Artunc2011,Bennett2013,Bertram2014,Carlstroem2015,Ebrahimi2014,Edwards2010,Evans2013,Grenier2003,Grenier2011,Grenier2016,Hausmann2012,Jones2011,Koeppen2013,Korhonen2015,Levey2014,Michaely2007,Murphy2014,Murray2016,Layton2013,Layton2014,Mazza2010,Pallone2012,Pohlmann2013,Rahn1999,Rusinek2004,Thomas2009,Thomson2012,Turner2015,Zhang2013}}
+
+\vspace{2mm}
+
+\item[{\rm \underline{Computational physiology / medicine}}]:  \\  {\footnotesize \cite{Clegg2015a,Guan2015,Gupta2013,Harder2015,Harris2009,He2012,Hunt2016,Kretzler2015,Mariani2015,Meghdadi2016,Moss2009,Neusser2008,Pannabecker2014,Perco2010,Sgouralis2015,Stegall2015,Winslow2012}}
+
+\vspace{2mm}
+
+
+\item[{\rm \underline{Imaging-based biomarkers}}]:  \\  {\footnotesize \cite{WikipediaBiomarker,Abramson2015,Buckler2011,Cutajar2015,Emre2016,Haq2015,Herrmann2016,Kessler2015,Kline2016,Kontopodis2015,Mirka2015,Notohamiprodjo2010,Obuchowski2015,Obuchowski2016,Pedrosa2009,Piludu2015,Rapacchi2015,Raunig2015,Roseman2016,Rosenkrantz2015,Sterzik2015,Sullivan2015,Sweis2016,Takahashi2015,Taouli2016,Wu2015,Yang2015,Zoellner2016a}}
+
+
+\vspace{2mm}
+ 
+\item[{\rm \underline{DCE-MRI}}]:  \\   {\footnotesize\cite{Bane2016,Barnes2014a,Chen2015,DeNaeyer2011,Dickie2016,Eikefjord2016a,Han2016,Li2016,Kratochvila2016,Lietzmann2012,Mehrtash2016,Notohamiprodjo2011,Rajan2014,Schabel2008,Seo2016,Simonis2016,Sourbron2013,Subashi2014,vanSchie2015,Wright2014,Xie2016,Zhang2015,Zhang2015a}}
+ 
+\vspace{2mm} 
+
+\item[{\rm \underline{BOLD fMRI}}]: \\   {\footnotesize\cite{Cantow2016,Chrysochou2012,Donati2012,Ebrahimi2012,Gloviczki2013,Inoue2012,Jahanian2014,Khatir2015,Lerman2014,Li2004,Li2008,Michaely2012,Neugarten2012,Neugarten2014,Niendorf2015,Niles2016,Notohamiprodjo2013,Park2012,Piskunowicz2015,Prasad1999,Prasad2006,Pruijm2013,Pruijm2014,Saad2013,Thacker2015,Vink2015a,Zhang2014,Zheng2014}}
+
+\vspace{2mm} 
+
+\item[{\rm \underline{Tracer kinetics \& compartment modeling}}]: \\  {\footnotesize \noindent \cite{Brix2010,Chen2011a,Chen2014,Cutajar2010,Gill2015,Ingrisch2013,Kallehauge2016,Khalifa2014,Koh2011,Liberman2016,Lee2014,Matis1980,Michoux2006,Nadav2016,Roberts2011,Sommer2014,Sourbron2008,Sourbron2011,Sourbron2012,Taheri2016,Tofts1999,Tofts2012,Turco2016,Wang2016,Winter2014}}
+
+\vspace{2mm}
+
+\item[{\rm \underline{Motion correction}}]:  \\  {\footnotesize \cite{Attenberger2010,Buonaccorsi2007,deSenneville2008,DenisdeSenneville2015,El-Baz2006,El-Baz2007,Gardener2010,Hodneland2014,Hodneland2014b,Kalis2016,Liu2014,Merrem2013,Positano2013,Song2006,Yang2012,Zoellner2009}}
+
+\vspace{2mm}
+
+\item[{\rm \underline{Kidney segmentation}}]: \\   {\footnotesize \cite{Akbari2013,Chiusano2014,El-Baz2005,Gloger2012,Gloger2015,Hanson2013,Karstoft2007,Khalifa2013,Kim2016,Li2012,Luo2013,Rusinek2007,Rusinek2016,Will2014,Woodard2015,Yang2016,Zhang2016b,Zhou2013,Zoellner2012}}
+  
+\vspace{2mm}
+
+\item[{\rm \underline{Validation, accuracy \& reproducibility}}]: \\  {\footnotesize \cite{Annet2004,Artz2011,Bosca2016,Braunagel2015,Buckley2006,Cutajar2014,Eikefjord2015,Eikefjord2016,Hammon2016,Khatir2014,Lim2013,Luedemann2009,Mendichovszky2008,Mendichovszky2009,Notohamiprodjo2013,Wang2015,Warmuth2007,Winter2011,Zhang2016a,Zimmer2013}}
+  
+\vspace{2mm}
+
+\item[{\rm \underline{Software tools {\small (DCE-MRI, visual analytics)}}}]: \\ {\footnotesize\cite{Angulo2016,Avants2011,Barnes2015,Beuzit2016,Chen2011,Ferl2011,Lee2009,Ortuno2013,Schmid2006,Schmid2009,Schmid2009a,Smith2015,Sourbron2009,Zoellner2013,Zoellner2016}}
+ 
+
+\end{description}
+
+ 
+ \vspace{-10mm}
+ 
+{\small
+
+%\renewcommand\refname{\large Suggested reading list}
+\renewcommand\refname{ }
+
+%\begin{multicols}{1}
+\bibliographystyle{bmc_article}
+%\bibliographystyle{plain}
+%\bibliographystyle{unsrt}
+%\bibliographystyle{plain-annote}
+%\bibliographystyle{IEEEannot}
+\bibliography{mr_renography}
+%\end{multicols}
+
+}
+
+
+\end{document}  
